@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -34,7 +40,9 @@
           odio sit amet nibh vulpulate cursus a sit amet mauris. Morbi accumsan
           ipsum velit.
         </p>
-        <h3><a href="#learnmore">LEARN MORE</a></h3>
+        <div>
+          <h3><a href="#learnmore">LEARN MORE</a></h3>
+        </div>
       </section>
     </header>
     <main>
@@ -43,14 +51,13 @@
           <img src="/images/svg/logo-big.svg" alt="Logo big" />
         </div>
         <div class="story_right">
-          <h2>OUR STORY</h2>
+          <h2 style="color: rgb(83, 83, 83)">OUR STORY</h2>
           <br />
           <p>
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
             velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
             auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
             Duis sed odio sit amet nibh vulpulate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit.
           </p>
           <br />
           <p>
@@ -58,22 +65,27 @@
             velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
             auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
             Duis sed odio sit amet nibh vulpulate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit.
           </p>
           <br />
-          <h3><a href="#learnmore">LEARN MORE</a></h3>
+          <div id="story_learnmore">
+            <h3><a href="#learnmore">LEARN MORE</a></h3>
+          </div>
         </div>
       </section>
       <section id="watch-section">
         <div class="play">
-          <img src="/images/svg/play.svg" alt="Play" height="100px" width="100px" />
-    
+          <img
+            src="/images/svg/play.svg"
+            alt="Play"
+            height="100px"
+            width="100px"
+          />
           <h4>WATCH OUR STORY</h4>
         </div>
       </section>
-      <section id="expertise-section">expertise section</section>
-      <section id="team-section">team section</section>
-      <section id="contact_client-section">contact / client section</section>
+      <section id="expertise-section"></section>
+      <section id="team-section"></section>
+      <section id="contact_client-section"></section>
     </main>
   </body>
 </html>

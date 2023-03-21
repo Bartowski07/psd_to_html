@@ -5,8 +5,7 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "DM Serif Display", serif;
 }
 
 header {
@@ -19,7 +18,7 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 nav ul {
@@ -32,17 +31,24 @@ nav ul {
   display: flex;
   align-items: center;
   color: rgb(101, 213, 221);
-  font-size: larger;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  padding-right: 200px;
+  padding-top: 10px;
 }
 
 .nav_right {
-  width: 60%;
+  width: 30%;
+  padding-left: 100px;
+  padding-top: 20px;
 }
 
 nav ul a {
   text-decoration: none;
   color: white;
   transition: all 0.6;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 nav ul a:hover {
@@ -54,14 +60,32 @@ nav ul a:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-top: 200px;
+  padding-right: 550px;
+  padding-left: 550px;
+}
+
+#hero-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding-bottom: 30px;
 }
 
 h3 {
   display: flex;
   border: solid rgb(101, 213, 221) 1px;
   justify-content: center;
-  padding: 15px;
+  padding: 8px;
   margin: 10px;
+  border-radius: 3px;
+}
+
+#hero-section p {
+  padding-bottom: 45px;
 }
 
 h3 a {
@@ -73,14 +97,26 @@ h3 a {
 #our_story-section {
   display: flex;
   justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 70px;
 }
 
 .story_left {
-  
+  padding-left: 530px;
 }
 
 .story_right {
   text-align: left;
+  color: rgb(151, 151, 151);
+  padding-right: 400px;
+  padding-left: 100px;
+}
+
+#story_learnmore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -10px;
 }
 
 #watch-section {
@@ -101,17 +137,17 @@ h3 a {
 }
 
 #expertise-section {
-  color: fuchsia;
+  
 }
 
 #team-section {
-  color: yellowgreen;
+ 
 }
 
 #contact_client-section {
-  color: lightsalmon;
+  
 }
 
 footer {
-  color: blueviolet;
+  
 }
