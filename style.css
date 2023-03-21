@@ -1,35 +1,117 @@
 * {
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  background-image: url(/images/bgk-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 670px;
 }
 
 nav {
-    color: red ;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav_left {
+  display: flex;
+  align-items: center;
+  color: rgb(101, 213, 221);
+  font-size: larger;
+}
+
+.nav_right {
+  width: 60%;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.6;
+}
+
+nav ul a:hover {
+  color: rgb(101, 213, 221);
 }
 
 #hero-section {
-    color: blue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-#out-story-section {
-    color: green;
+h3 {
+  display: flex;
+  border: solid rgb(101, 213, 221) 1px;
+  justify-content: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+h3 a {
+  text-decoration: none;
+  color: rgb(101, 213, 221);
+  font-size: medium;
+}
+
+#our_story-section {
+  display: flex;
+  justify-content: center;
+}
+
+.story_left {
+  
+}
+
+.story_right {
+  text-align: left;
 }
 
 #watch-section {
-    color: darkred;
+  background-image: url(/images/bgk-middle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.play h4 {
+  padding-top: 20px;
+  color: white;
 }
 
 #expertise-section {
-    color: fuchsia;
+  color: fuchsia;
 }
 
 #team-section {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 
 #contact_client-section {
-    color: lightsalmon;
+  color: lightsalmon;
 }
 
 footer {
-    color: blueviolet;
+  color: blueviolet;
 }
