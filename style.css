@@ -1,6 +1,8 @@
 * {
     margin: 0;
-}
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 nav {
     color: red ;
@@ -64,9 +66,7 @@ hr {
     padding-bottom: 20px;
 }
 
-#contact_client-section {
-    color: lightsalmon;
-}
+
 
 footer {
     color: blueviolet;
@@ -136,4 +136,73 @@ footer {
     padding: 15px;
     background-color: rgba(52, 13, 88, 0.552);
     
+}
+
+
+/*Styles for Contact-client-section */
+
+.contact-client-section {
+    display: flex;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.contact-client-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.contact-client-left input {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    color: darkslategray;
+    border: 1px solid grey;
+}
+
+.contact-client-left textarea {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 200px;
+}
+
+.contact-button {
+    color: #1DB954;
+    border: 2px solid rgb(14, 206, 14);
+    border-radius: 2px;
+    margin: 0px;
+    padding: 15px;
+    background-color: white;
+}
+
+.contact-client-right {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+.contact-client-right h3 {
+    padding-left: 50px;
+}
+
+
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.logo-grid-item {
+    height: auto;
+    width: 70%;
+    padding: 25px;
+    padding-left: 50px;
 }
