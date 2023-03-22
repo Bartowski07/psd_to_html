@@ -65,17 +65,21 @@ nav ul a:hover {
   padding-left: 550px;
 }
 
-#hero-section div {
+.learn {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h1 {
+#hero-section h1 {
   padding-bottom: 30px;
 }
 
-h3 {
+#hero-section p {
+  padding-bottom: 45px;
+}
+
+.learn h3 {
   display: flex;
   border: solid rgb(101, 213, 221) 1px;
   justify-content: center;
@@ -84,11 +88,7 @@ h3 {
   border-radius: 3px;
 }
 
-#hero-section p {
-  padding-bottom: 45px;
-}
-
-h3 a {
+.learn h3 a {
   text-decoration: none;
   color: rgb(101, 213, 221);
   font-size: medium;
@@ -137,17 +137,13 @@ h3 a {
 }
 
 #expertise-section {
-  
 }
 
 #team-section {
- 
 }
 
 #contact_client-section {
-  
 }
 
 footer {
-  
 }
