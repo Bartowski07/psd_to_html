@@ -178,7 +178,7 @@ footer {
     border: 2px solid rgb(14, 206, 14);
     border-radius: 2px;
     margin: 0px;
-    padding: 15px;
+    padding: 15px 40px;
     background-color: white;
 }
 
@@ -197,12 +197,12 @@ footer {
 .logo-grid {
     display: grid;
     grid-template-columns: 50% 50%;
-
+    grid-gap: 50px;
 }
 
 .logo-grid-item {
-    height: auto;
-    width: 70%;
-    padding: 25px;
+    height: 90x;
+    width: 150px;
+
     padding-left: 50px;
 }
