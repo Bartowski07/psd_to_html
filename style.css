@@ -31,7 +31,8 @@ nav {
     padding-top: 50px;
 }
 
-.expertise-header h2, p {
+.expertise-header h2, 
+.expertise-header p {
  padding-top: 10px;
 }
 
@@ -66,11 +67,6 @@ hr {
     padding-bottom: 20px;
 }
 
-
-
-footer {
-    color: blueviolet;
-}
 
 
 /* Styles for team-section */
@@ -108,6 +104,10 @@ footer {
     color: white;
 }
 
+small {
+    color: rgb(255, 255, 255, 0.6);;
+}
+
 .member {
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@ footer {
     border-radius: 2px;
     margin: 0px;
     padding: 15px;
-    background-color: rgba(52, 13, 88, 0.552);
+    background-color: transparent;
     
 }
 
@@ -147,14 +147,16 @@ footer {
     text-align: left;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .contact-client-left {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding-bottom: 20px;
     align-items: flex-start;
+    margin: 0;
 }
 
 .contact-client-left input {
@@ -186,23 +188,140 @@ footer {
     width: 50%;
     text-align: left;
     padding: 20px;
+    margin: 0;
+    padding-top: 0;
 }
 
 .contact-client-right h3 {
     padding-left: 50px;
 }
 
-
-
 .logo-grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 50px;
+    row-gap: 50px;
 }
 
 .logo-grid-item {
-    height: 90x;
-    width: 150px;
+    /*height: 90x;
+    width: 150px; */
 
+    height: auto;
+    width: 100%;
     padding-left: 50px;
+}
+
+
+/* Styles for footer */
+
+footer {
+    border: 1px solid black;
+    margin: 0 auto;
+    background-image: url(images/bgk-footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+
+}
+
+.footer-box p {
+    padding: 10px;
+}
+
+.tajam-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address p {
+    padding-top: 5px;
+}
+
+.phone {
+    display: flex;
+}
+.newsletter-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-input button {
+color: rgb(255, 255, 255, 0.6);
+background-color: transparent;
+border: 1px solid rgb(255, 255, 255, 0.6);
+
+width: 75%;
+}
+
+.newsletter-input img {
+    width: 20%;
+    height: auto;
+    background-color: rgb(255, 255, 255, 0.6);
+    
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+
+}
+
+.footer-nav {
+    margin: 0 auto;
+    margin-bottom: 75px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#copyright {
+    align-self: flex-end;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-right {
+    width: 50%;
+    text-align: right;
 }
