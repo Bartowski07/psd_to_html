@@ -5,8 +5,10 @@
 }
 
 body {
-  font-family: "DM Serif Display", serif;
+  font-family: 'Roboto', sans-serif;
 }
+
+/* Styles for navbar, hero, our story and watch sections */
 
 header {
   background-image: url(/images/bgk-header.png);
@@ -32,13 +34,14 @@ nav ul {
   align-items: center;
   color: rgb(101, 213, 221);
   font-size: 30px;
-  font-family: "Courier New", Courier, monospace;
   padding-right: 200px;
   padding-top: 10px;
+  font-weight: 100;
+  
 }
 
 .nav_right {
-  width: 30%;
+  width: 35%;
   padding-left: 100px;
   padding-top: 20px;
 }
@@ -69,10 +72,13 @@ nav ul a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 #hero-section h1 {
   padding-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 31px;
 }
 
 #hero-section p {
@@ -92,6 +98,7 @@ nav ul a:hover {
   text-decoration: none;
   color: rgb(101, 213, 221);
   font-size: medium;
+  font-weight: 600;
 }
 
 #our_story-section {
