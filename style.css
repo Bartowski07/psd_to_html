@@ -157,7 +157,7 @@ nav ul a:hover {
 }
 
 .expertise-header {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   padding-top: 50px;
 }
 
@@ -184,7 +184,7 @@ hr {
 
 .grid-item {
   border: 0.1px solid rgb(231, 229, 229);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
@@ -218,7 +218,7 @@ hr {
 
 
 .team-header {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   padding-top: 50px;
   color: white;
 }
@@ -258,13 +258,14 @@ small {
 }
 
 .team-button {
-  color: #1DB954;
-  border: 2px solid rgb(14, 206, 14);
-  border-radius: 2px;
+  color: rgb(101, 213, 221);
+  border: solid rgb(101, 213, 221) 1px;
+  border-radius: 3px;
   margin: 0px;
   padding: 15px;
   background-color: transparent;
-  
+  font-size: medium;
+  font-weight: 600;
 }
 
 
@@ -305,12 +306,14 @@ small {
 }
 
 .contact-button {
-  color: #1db954;
-  border: 2px solid rgb(14, 206, 14);
+  color: rgb(101, 213, 221);
+  border: 2px solid rgb(101, 213, 221);
   border-radius: 2px;
   margin: 0px;
   padding: 15px 40px;
   background-color: white;
+  font-size: medium;
+  font-weight: 600;
 }
 
 .contact-client-right {
