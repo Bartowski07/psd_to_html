@@ -10,11 +10,12 @@ body {
 
 /* Styles for navbar, hero, our story and watch sections */
 
-hr {
+#herohr {
   width: 70px;
   align-self: center;
   margin-bottom: 30px;
   color: rgb(101, 213, 221);
+  border-color: rgb(101, 213, 221);
 }
 
 header {
@@ -304,7 +305,7 @@ small {
 }
 
 .contact-button {
-  color: #1DB954;
+  color: #1db954;
   border: 2px solid rgb(14, 206, 14);
   border-radius: 2px;
   margin: 0px;
@@ -339,7 +340,6 @@ small {
   padding-left: 50px;
 }
 
-
 /* Styles for footer */
 
 footer {
@@ -364,7 +364,6 @@ footer {
   display: flex;
   flex-direction: column;
   width: 33%;
-
 }
 
 .footer-box p {
@@ -400,31 +399,27 @@ footer {
 }
 
 .newsletter-input button {
-color: rgb(255, 255, 255, 0.6);
-background-color: transparent;
-border: 1px solid rgb(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255, 0.6);
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255, 0.6);
 
-width: 75%;
+  width: 75%;
 }
 
 .newsletter-input img {
   width: 20%;
   height: auto;
   background-color: rgb(255, 255, 255, 0.6);
-  
 }
 
 .contact-icons {
   display: flex;
   justify-content: flex-start;
-
-
 }
 .contact-icon {
   width: 30px;
   height: 30px;
   margin: 5px;
-
 }
 
 .footer-nav {
