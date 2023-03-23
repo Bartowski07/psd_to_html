@@ -10,6 +10,13 @@ body {
 
 /* Styles for navbar, hero, our story and watch sections */
 
+hr {
+  width: 70px;
+  align-self: center;
+  margin-bottom: 30px;
+  color: rgb(101, 213, 221);
+}
+
 header {
   background-image: url(/images/bgk-header.png);
   background-size: cover;
