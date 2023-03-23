@@ -1,24 +1,155 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Styles for navbar, hero, our story and watch sections */
+
+#hero-section hr {
+  width: 70px;
+  align-self: center;
+  margin-bottom: 30px;
+  color: rgb(101, 213, 221);
+}
+
+header {
+  background-image: url(/images/bgk-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 670px;
+}
 
 nav {
-    color: red ;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav_left {
+  display: flex;
+  align-items: center;
+  color: rgb(101, 213, 221);
+  font-size: 30px;
+  padding-right: 200px;
+  padding-top: 10px;
+  font-weight: 100;
+  
+}
+
+.nav_right {
+  width: 35%;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.6;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav ul a:hover {
+  color: rgb(101, 213, 221);
 }
 
 #hero-section {
-    color: blue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 200px;
+  padding-right: 550px;
+  padding-left: 550px;
 }
 
-#out-story-section {
-    color: green;
+.learn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#hero-section h1 {
+  padding-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 31px;
+}
+
+#hero-section p {
+  padding-bottom: 45px;
+}
+
+.learn h3 {
+  display: flex;
+  border: solid rgb(101, 213, 221) 1px;
+  justify-content: center;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.learn h3 a {
+  text-decoration: none;
+  color: rgb(101, 213, 221);
+  font-size: medium;
+  font-weight: 600;
+}
+
+#our_story-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+.story_left {
+  padding-left: 530px;
+}
+
+.story_right {
+  text-align: left;
+  color: rgb(151, 151, 151);
+  padding-right: 400px;
+  padding-left: 100px;
+}
+
+#story_learnmore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -10px;
 }
 
 #watch-section {
-    color: darkred;
+  background-image: url(/images/bgk-middle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+.play h4 {
+  padding-top: 20px;
+  color: white;
+}
+
 
 
 /* Styles for expertise-section */
@@ -42,6 +173,7 @@ hr {
     width: 2.5%;
     margin-bottom: 20px;
 }
+
 
 
 .grid-container {
@@ -114,7 +246,10 @@ small {
     border: 1px solid white;
     margin-bottom: 50px;
     
-}
+
+
+
+
 
 .member div {
     width: 100%;
@@ -215,6 +350,7 @@ small {
 /* Styles for footer */
 
 footer {
+
     border: 1px solid black;
     margin: 0 auto;
     background-image: url(images/bgk-footer.png);
